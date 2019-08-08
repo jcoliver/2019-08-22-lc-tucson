@@ -38,6 +38,7 @@ see the changes take effect locally.
 <div name="registration">
   <h3>Registration</h3>
   <p>If you are interested in attending any of the sessions, please register at <a href="https://forms.gle/8Mh92g1eBDme7SVCA">https://forms.gle/8Mh92g1eBDme7SVCA</a>
+  </p>
 </div>
 
 {% comment %}
