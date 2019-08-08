@@ -256,6 +256,8 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+
+<!--
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -267,6 +269,7 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
+--> 
 
 {% comment %}
 SETUP
