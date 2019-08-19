@@ -428,6 +428,40 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
+<div id="sql"> {% comment %} Start of 'DB Browser for SQLite' section. {% endcomment %}
+  <h3>DB Browser for SQLite</h3>
+  <p>
+    SQL is a specialized programming language used with databases.  We
+    use a simple database manager called
+    <a href="http://sqlitebrowser.org">DB Browser for SQLite</a> in our lessons.
+  </p>
+  
+  <p>
+    You  will need to install [DB Browser for SQLite](http://sqlitebrowser.org) to complete these lessons. 
+    DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a 
+    SQLite database. This application bundles SQLite, so you won't need to install SQLite separately. <em>Note</em>: 
+    on Windows, the PortableApp download is recommended as the regular version may take a long time to 
+    install on certain systems.
+  </p>
+
+  <h4>The data</h4>
+  <p>To import data, you'll need to open DB Browser for SQLite and download a zip file containing the data 
+  files for this tutorial.</p>
+  <ol>
+  <li>Download the data files doaj-article-sample.zip from 
+    <a href="http://doi.org/10.5281/zenodo.2822005">Zenodo</a>.</li>
+  <li>Open the zip file with the zip utlity on your machine and save the folder and files to a location 
+    where you can easily find them. For example, your Desktop.</li>
+  <li>Open DB Browser for SQLite.</li>
+  <li>Choose File->Open Database from the menu bar at the top of your screen.</li>
+  <li>Navigate to where you saved the doaj-article-sample folder and/or files. For example, your Desktop.</li>
+  <li>Select doaj-article-sample.db.</li>
+</ol>
+
+</div> {% comment %} End of 'DB Browser for SQLite' section. {% endcomment %}
+
+
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -503,8 +537,6 @@ please preview your site before committing, and make sure to run
     </div>
       {%endif%}
   </div>
-
-<!--
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
