@@ -342,8 +342,6 @@ please preview your site before committing, and make sure to run
           Others editors that you can use are
           <a href="https://notepad-plus-plus.org/">Notepad++</a> or
           <a href="https://www.sublimetext.com/">Sublime Text</a>.
-          <strong>Be aware that you must
-            add its installation directory to your system path.</strong>
           Please ask your instructor to help you do this.
         </p>
       </article>
@@ -437,12 +435,44 @@ please preview your site before committing, and make sure to run
   </p>
   
   <p>
-  You  will need to install <a href="http://sqlitebrowser.org">DB Browser for SQLite</a> to complete these lessons. 
-    DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a 
-    SQLite database. This application bundles SQLite, so you won't need to install SQLite separately. <em>Note</em>: 
-    on Windows, the PortableApp download is recommended as the regular version may take a long time to 
-    install on certain systems.
+  You  will need to install <a href="http://sqlitebrowser.org/dl">DB Browser for SQLite</a> to complete 
+  these lessons (see below for operating system-specific links).
+  DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a 
+  SQLite database. This application bundles SQLite, so you won't need to install SQLite separately. <em>Note</em>: 
+  on Windows, the PortableApp download is recommended as the regular version may take a long time to 
+  install on certain systems.
   </p>
+
+  <div> <!-- Begin OS download section -->
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" 
+                                                aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#sql-macos" 
+                                 aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#sql-linux" 
+                                 aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+    <div class="tab-content"> <!-- begin tab content -->
+      <article role="tabpanel" class="tab-pane active" id="sql-windows">
+        <p>
+          Visit <a href="https://sqlitebrowser.org/dl/#windows">SqliteBrowser</a> and 
+          download and install it. Version 3.11.0 or greater.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="sql-macos">
+        <p>
+          Visit <a href="https://sqlitebrowser.org/dl/#macos">SqliteBrowser</a> and 
+          download and install it. Version 3.11.0 or greater.
+        </p>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="sql-linux">
+        <p>
+          Visit <a href="https://sqlitebrowser.org/dl/#Linux">SqliteBrowser</a> and 
+          download and install it. Version 3.11.0 or greater.
+        </p>
+      </article>
+    </div> <!-- end tab content -->
+  </div> <!-- end OS download section -->
 
   <h4>The data</h4>
   <p>To import data, you'll need to open DB Browser for SQLite and download a zip file containing the data 
@@ -464,13 +494,11 @@ please preview your site before committing, and make sure to run
 <!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
-
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -497,7 +525,6 @@ please preview your site before committing, and make sure to run
           Visit <a href="https://sqlitebrowser.org/dl/">SqliteBrowser</a> and download and install it. Version 3.11.0 or greater.
         </p>
       </article>
-      
     </div>
     {%else%}
     <div class="tab-content">
@@ -509,9 +536,7 @@ please preview your site before committing, and make sure to run
             <li>Paste it into the window that git bash opened. If you're unsure, ask an instructor for help</li>
             <li>You should see something like <code>3.27.2 2019-02-25 16:06:06 ...</code></li>
           </ul>
-            
           <p>If you want to do this manually, download <a href="https://www.sqlite.org/2019/sqlite-tools-win32-x86-3270200.zip">sqlite3</a>, make a bin directory in the user's home directory, unzip sqlite3, move it into the bin directory, and then add the bin directory to the path.</p>
-
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="sql-macos">
