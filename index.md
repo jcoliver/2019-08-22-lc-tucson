@@ -433,16 +433,28 @@ please preview your site before committing, and make sure to run
     use a simple database manager called
     <a href="http://sqlitebrowser.org">DB Browser for SQLite</a> in our lessons.
   </p>
-  
   <p>
-  You  will need to install <a href="http://sqlitebrowser.org/dl">DB Browser for SQLite</a> to complete 
+  You will need to install <a href="http://sqlitebrowser.org/dl">DB Browser for SQLite</a> to complete 
   these lessons (see below for operating system-specific links).
   DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a 
   SQLite database. This application bundles SQLite, so you won't need to install SQLite separately. <em>Note</em>: 
   on Windows, the PortableApp download is recommended as the regular version may take a long time to 
   install on certain systems.
   </p>
-
+  <h4>The data</h4>
+  <p>To import data, you'll need to open DB Browser for SQLite and download a zip file containing the data 
+  files for this tutorial.
+  </p>
+  <ol>
+    <li>Download the data files doaj-article-sample.zip from 
+      <a href="http://doi.org/10.5281/zenodo.2822005">Zenodo</a>.</li>
+    <li>Open the zip file with the zip utlity on your machine and save the folder and files to a location 
+    where you can easily find them. For example, your Desktop.</li>
+    <li>Open DB Browser for SQLite.</li>
+    <li>Choose File->Open Database from the menu bar at the top of your screen.</li>
+    <li>Navigate to where you saved the doaj-article-sample folder and/or files. For example, your Desktop.</li>
+    <li>Select doaj-article-sample.db.</li>
+  </ol>
   <div> <!-- Begin OS download section -->
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" 
@@ -473,21 +485,6 @@ please preview your site before committing, and make sure to run
       </article>
     </div> <!-- end tab content -->
   </div> <!-- end OS download section -->
-
-  <h4>The data</h4>
-  <p>To import data, you'll need to open DB Browser for SQLite and download a zip file containing the data 
-  files for this tutorial.</p>
-  <ol>
-  <li>Download the data files doaj-article-sample.zip from 
-    <a href="http://doi.org/10.5281/zenodo.2822005">Zenodo</a>.</li>
-  <li>Open the zip file with the zip utlity on your machine and save the folder and files to a location 
-    where you can easily find them. For example, your Desktop.</li>
-  <li>Open DB Browser for SQLite.</li>
-  <li>Choose File->Open Database from the menu bar at the top of your screen.</li>
-  <li>Navigate to where you saved the doaj-article-sample folder and/or files. For example, your Desktop.</li>
-  <li>Select doaj-article-sample.db.</li>
-</ol>
-
 </div> {% comment %} End of 'DB Browser for SQLite' section. {% endcomment %}
 
 
