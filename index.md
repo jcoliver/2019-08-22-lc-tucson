@@ -479,7 +479,7 @@ please preview your site before committing, and make sure to run
       </article>
       <article role="tabpanel" class="tab-pane active" id="sql-linux">
         <p>
-          Visit <a href="https://sqlitebrowser.org/dl/#Linux">SqliteBrowser</a> and 
+          Visit <a href="https://sqlitebrowser.org/dl/#linux">SqliteBrowser</a> and 
           download and install it. Version 3.11.0 or greater.
         </p>
       </article>
