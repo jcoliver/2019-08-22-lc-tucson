@@ -437,7 +437,7 @@ please preview your site before committing, and make sure to run
   </p>
   
   <p>
-    You  will need to install [DB Browser for SQLite](http://sqlitebrowser.org) to complete these lessons. 
+  You  will need to install <a href="http://sqlitebrowser.org">DB Browser for SQLite</a> to complete these lessons. 
     DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a 
     SQLite database. This application bundles SQLite, so you won't need to install SQLite separately. <em>Note</em>: 
     on Windows, the PortableApp download is recommended as the regular version may take a long time to 
