@@ -381,7 +381,8 @@ please preview your site before committing, and make sure to run
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed. You will also need to download the 
     <a href="https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv">
-      doaj-article-sample.csv</a> data file (click the link and select "Save").
+      doaj-article-sample.csv</a> data file (NOTE: In Safari, right click and select <strong>download 
+    linked file</strong>; in Chrome and Firefox, right click and select <strong>save link as</strong>).
   </p>
 
   <div>
