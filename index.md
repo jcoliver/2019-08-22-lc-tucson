@@ -379,7 +379,9 @@ please preview your site before committing, and make sure to run
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
-    It runs inside a web browser, but no web connection is needed.
+    It runs inside a web browser, but no web connection is needed. You will also need to download the 
+    <a href="https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv">
+      doaj-article-sample.csv</a> data file (click the link and select "Save").
   </p>
 
   <div>
